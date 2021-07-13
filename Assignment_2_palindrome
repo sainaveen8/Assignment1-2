@@ -1,0 +1,18 @@
+s="madam is walking with her dad and mom";
+s=s+"";
+word="";
+for(k of s){
+  if(k!=""){
+    word=word+k;
+  }
+  else{
+    rev=word.split("").rev().join("");
+    if(rev==word){
+      console.log(word);
+    }
+  word="";
+  rev="";
+  }
+  
+  
+}
